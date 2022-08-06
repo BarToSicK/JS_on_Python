@@ -6,6 +6,7 @@ from fastapi.staticfiles import StaticFiles
 from fastapi import FastAPI, Form
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
+from fastapi.responses import HTMLResponse
 
 app = FastAPI()
 
@@ -45,6 +46,7 @@ async def serv(name: str = Form(None), phone: str = Form(None)):
 @app.post('/server.php')
 def some_post():
     print(1)
+    return('')
 
 
 @app.get("/{file_path:path}")
