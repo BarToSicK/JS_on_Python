@@ -34,7 +34,7 @@ def read_item():
 
 
 @app.post("/server.php")
-async def orda(order:Order):
+async def ordir(order:Order):
     return {"name": order.name, "phone": order.phone}
 
 
