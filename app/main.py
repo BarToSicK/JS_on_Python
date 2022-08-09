@@ -49,6 +49,11 @@ def some_post():
     return('')
 
 
+@app.get("/favicon.ico")
+async def read_file():
+    return FileResponse('files/icons/favicon.ico')
+
+
 @app.get("/{file_path:path}")
 async def read_file(file_path: str):
     return FileResponse('files/' + file_path)
