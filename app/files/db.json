@@ -52,6 +52,31 @@
       "name": "Valeriya",
       "phone": "+7 (985) 188-86-52",
       "id": 6
+    },
+    {
+      "name": "Vitya",
+      "phone": "+7 (985) 188-86-52",
+      "id": 7
+    },
+    {
+      "name": "Valeriya Mayer",
+      "phone": "+7(976)143-86-75",
+      "id": 8
+    },
+    {
+      "name": "Valeriya",
+      "phone": "+7(976)143-86-75",
+      "id": 9
+    },
+    {
+      "name": "Max DiNahYi",
+      "phone": "+7 532 188-43-52",
+      "id": 10
+    },
+    {
+      "name": "Danmachi ",
+      "phone": "+7 654 148 63 52",
+      "id": 11
     }
   ]
 }
